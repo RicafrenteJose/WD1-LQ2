@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fishbook</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+<div class="navbar">
+  <div class="navbar-left">Fishbook</div>
+  <div class="navbar-center">
+    <a href="#">Home</a>
+    <a href="#">Chats</a>
+    <a href="#">Marketplace</a>
+  </div>
+  <div class="navbar-right">
+    <button id="settingsBtn">Settings</button>
+    <div id="dropdown" class="dropdown hidden">
+      <a href="#">Profile</a>
+      <a href="#">Log out</a>
+    </div>
+  </div>
+</div>
+
+<!-- Main Section -->
+<div class="container">
+  <!-- News Feed (80%) -->
+  <div class="main-feed">
+    <div class="post">
+      <div class="user-info">
+        <img src="src/nicolas.jpg" alt="Nicolas Banasan">
+        <p>Nicolas Banasan</p>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <p>Enjoying the beautiful sunset!</p>
+      <img class="post-image" src="src/sunset.jpg" alt="Sunset">
+      <div class="post-actions">
+        <button class="like-btn">Like</button>
+        <button class="comment-btn">Comment</button>
+        <button class="share-btn">Share</button>
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="user-info">
+        <img src="src/rain.jpg" alt="Rain Quianzon">
+        <p>Rain Quianzon</p>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <p>Had a great time hiking today ⛰️</p>
+      <img class="post-image" src="src/hiking.jpg" alt="Hiking">
+      <div class="post-actions">
+        <button class="like-btn">Like</button>
+        <button class="comment-btn">Comment</button>
+        <button class="share-btn">Share</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar (20%) -->
+  <div class="sidebar">
+    <h3>Your Profile</h3>
+    <img src="src/thirdy.jpg" class="profile-photo" alt="Thirdy Ricafrente">
+    <p><strong>Name:</strong> Thirdy Ricafrente</p>
+    <p><strong>Username:</strong> 3rdy</p>
+    <p><strong>Birthday:</strong> May 19, 2006</p>
+    <p><strong>Address:</strong> Villa Quirino, San Esteban, Ilocos Sur</p>
+    <p><strong>Joined:</strong> 2023</p>
+
+    <h3>Friends</h3>
+    <div class="friend-list">
+      <div class="friend">
+        <img src="src/carl.jpg" alt="Carl">
+        <p>Carl (@carl123)</p>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <div class="friend">
+        <img src="src/rain.jpg" alt="Rain">
+        <p>Rain (@Ulan)</p>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <div class="friend">
+        <img src="src/nicolas.jpg" alt="Nicolas">
+        <p>Nicolas (@Kulas)</p>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <div class="friend">
+        <img src="src/matthew.jpg" alt="Matthew">
+        <p>Matthew (@Mat)</p>
+        <button class="follow-btn">Follow</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Developed by Thirdy</p>
+</div>
+<script src="file.js"></script>
+</body>
+</html>
